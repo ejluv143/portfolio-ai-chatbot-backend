@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello", "hi", "hey", "good morning", "good afternoon",
+        "good evening", "what's up", "how are you", "yo"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! Ask me anything.",
+        "Hey! What would you like to know?"
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "what are your skills", "what can you do", "tell me your skills",
+        "what technologies do you know", "what programming languages do you use",
+        "are you good at python", "do you know react", "what tools do you use",
+        "what is your tech stack", "what are you good at"
+      ],
+      "responses": [
+        "I can help with Python, machine learning, React, Next.js, Firebase, and portfolio projects."
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "tell me your projects", "what projects did you build", "show your projects",
+        "what have you created", "what apps did you make", "do you have projects",
+        "show me your work", "what is your best project", "portfolio projects",
+        "what have you built"
+      ],
+      "responses": [
+        "I built portfolio websites, drone systems, weather dashboards, survivor apps, and machine learning projects."
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "what is your experience", "tell me about your work experience",
+        "where did you work", "what was your job", "do you have work experience",
+        "what is your background", "tell me your background",
+        "are you an atm technician", "what did you do as technician"
+      ],
+      "responses": [
+        "I have experience as an ATM technician and I am building skills in software development, AI, and machine learning."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "how can I contact you", "contact information", "where can I reach you",
+        "send me your email", "how do I hire you", "can we work together",
+        "are you available for work", "how to message you"
+      ],
+      "responses": [
+        "You can contact me through my portfolio contact form or email."
+      ]
+    },
+    {
+      "tag": "resume",
+      "patterns": [
+        "show me your resume", "do you have a resume", "can I see your cv",
+        "download resume", "where is your resume", "show your cv",
+        "tell me about your resume"
+      ],
+      "responses": [
+        "My resume includes my IT background, ATM technician experience, and projects in software development and machine learning."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "what is machine learning", "do you know machine learning",
+        "tell me about machine learning", "what ml projects do you have",
+        "can you build ml models", "what is your ai experience",
+        "do you know artificial intelligence", "can you train a model"
+      ],
+      "responses": [
+        "I am learning machine learning, including regression, classification, neural networks, and model evaluation."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you", "see you later",
+        "exit", "quit", "thanks bye", "talk to you later"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you next time!",
+        "Thanks for chatting!"
+      ]
+    }
+  ]
+}
